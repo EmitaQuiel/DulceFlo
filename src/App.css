@@ -44,8 +44,9 @@ body{
 h1{
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
+    text-transform: uppercase;
 }
 h2{
   font-family: "Raleway", serif;
@@ -64,4 +65,7 @@ p{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+section{
+  margin-bottom: 5%;
 }
