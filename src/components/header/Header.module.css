@@ -1,0 +1,35 @@
+.containerHeader {
+  width: 100%;
+}
+.nav {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo img {
+  width: 50%;
+}
+.navList {
+  display: flex;
+}
+.navList li {
+  list-style: none;
+  margin-right: 10%;
+}
+.navList a {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navList a:hover{
+    transform: translateY(5%);
+    color: #95ad3a;
+}
