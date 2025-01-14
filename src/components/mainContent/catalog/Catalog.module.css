@@ -1,0 +1,13 @@
+.catalog img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.ContainerCardCenter{
+  display: flex;
+  justify-content: center;
+}
+.containerCardLeft{
+  display: flex;
+  justify-content: right;
+}

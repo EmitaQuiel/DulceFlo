@@ -1,0 +1,25 @@
+.titles {
+  margin-left: 8%;
+}
+.titles h1 {
+  margin: 0;
+}
+.titleH2 {
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+}
+.titleH2 h2 {
+  font-size: 30px;
+}
+.titleH2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

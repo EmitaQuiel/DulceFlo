@@ -1,0 +1,36 @@
+
+.containerContact {
+    display: flex;
+    justify-content: space-around;
+  }
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.content{
+    margin-right: 5%;
+}
+.content2 img {
+  width: 30%;
+}
+.listSocials li {
+  margin-bottom: 50px;
+  list-style: none;
+}
+.listSocials li a {
+  display: flex;
+  align-items: center;
+}
+.content a {
+  font-size: 20px;
+  color: #93ac37;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.listSocials img {
+  width: 30px;
+}
+.listSocials img {
+  width: 30px;
+  object-fit: cover;
+}

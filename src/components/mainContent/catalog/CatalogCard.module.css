@@ -1,0 +1,23 @@
+.card {
+  width: 20%;
+  padding: 1px;
+  border-radius: 100px;
+  text-align: center;
+  margin: 1%;
+  border: solid 1px black;
+  animation: flotar 3s ease-in-out infinite;
+}
+.card h3 {
+  font-size: 15px;
+}
+@keyframes flotar {
+  0% {
+    transform: translateY(15%);
+  }
+  50% {
+    transform: translateY(25%);
+  }
+  100% {
+    transform: translateY(15%);
+  }
+}

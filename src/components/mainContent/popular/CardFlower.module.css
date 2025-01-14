@@ -1,0 +1,17 @@
+.card {
+  transition: transform 0.3s ease;
+  margin-left: 7%;
+}
+.card img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  height: 400px;
+}
+.card p {
+  color: rgb(134, 134, 134);
+  text-align: left;
+}
+.card:hover {
+  transform: translateY(5%);
+}
