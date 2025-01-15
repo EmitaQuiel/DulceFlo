@@ -1,6 +1,7 @@
 .card {
+  width: 500px;
+  height: 500px;
   transition: transform 0.3s ease;
-  margin-left: 7%;
 }
 .card img {
   width: 100%;
@@ -8,9 +9,12 @@
   object-fit: cover;
   height: 400px;
 }
+/* Arriba | Derecha | Abajo | Izquierda */
+
 .card p {
   color: rgb(134, 134, 134);
-  text-align: left;
+  text-align: center;
+  margin: 5% 25% 0 25%;
 }
 .card:hover {
   transform: translateY(5%);

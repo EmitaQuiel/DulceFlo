@@ -1,10 +1,11 @@
 import React from "react";
 import style from "./Hearo.module.css";
+import 'animate.css';
 
 function Hearo() {
   return (
     <section id="home">
-      <div className={style.containerHearo}>
+      <div className={`${style.containerHearo} animate__animated animate__fadeInLeft`}>
         <div className={style.hearo}>
           <img src="./assets/img/Hearo.jpg" alt="imgHearo" />
           <div className={style.infoHearo}>

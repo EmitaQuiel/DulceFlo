@@ -1,37 +1,43 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./Contact.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <section id="contact">
-        <h1>Contact</h1>
-
-      <div className={style.containerContact}>
+      <h1>Contact</h1>
+      <div className={style.containerContact} data-aos="fade-right">
         <div className={style.contact}>
           <div className={style.content}>
             <ul className={style.listSocials}>
               <li>
                 <a href="">
                   <img src="./assets/img/iconFacebook.png" />
-                  Facebook
+                  @DulcefloCR
                 </a>
               </li>
               <li>
                 <a href="">
                   <img src="./assets/img/iconInstagram.png" />
-                  Instagram
+                  @Dulce_flo
                 </a>
               </li>
               <li>
                 <a href="">
                   <img src="./assets/img/iconTiktok.png" />
-                  Tiktok
+                  @Dulce_floCR
                 </a>
               </li>
             </ul>
-          </div>
-          <div className={style.content2}>
-                <img src="./assets/img/FlowerContact.jpg"/>
+            <img src="./assets/img/FlowerContact.jpg" />
           </div>
         </div>
       </div>

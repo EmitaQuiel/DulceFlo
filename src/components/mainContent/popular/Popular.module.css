@@ -17,8 +17,8 @@
   width: 30px;
   height: 30px;
 }
-
 .cards {
+  margin-top: 3%;
   display: flex;
   justify-content: center;
   text-align: center;

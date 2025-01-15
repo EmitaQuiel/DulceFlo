@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./Blog.module.css";
 import CardBlog from "./CardBlog";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 function Blog() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: true,
+    });
+  }, []);
+
   return (
     <section id="blog">
-      <div className={style.containerBlog}>
+      <div className={style.containerBlog} data-aos="fade-up">
         <div className={style.blog}>
           <h1>BLOG</h1>
           <div className={style.cardsBlog}>
